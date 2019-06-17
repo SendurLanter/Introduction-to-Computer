@@ -25,8 +25,8 @@ public:
         //!! TODO 3: add your agent class "Agent_b05901xxx" in a new push_back, so TA can "new" your agent
         // number of snakes should be 4 !!!
 
-        pAllNewAgentFunc.push_back(&fNewAgent<Agent_b07901xxx>);// for c++ agent
-        //pAllNewAgentFunc.push_back(&fNewAgent<Agent_pyb07901xxx>);// for python agent
+        //pAllNewAgentFunc.push_back(&fNewAgent<Agent_b07901xxx>);// for c++ agent
+        pAllNewAgentFunc.push_back(&fNewAgent<Agent_pyb07901xxx>);// for python agent
 
         //pAllNewAgentFunc.push_back(&fNewAgent<RandomAgent>);
         pAllNewAgentFunc.push_back(&fNewAgent<RandomAgent>);
